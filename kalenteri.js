@@ -38,3 +38,11 @@
         }
     };
 }());
+var openingDates = [new Date("October, 1, 1998 00:00:00"),
+             new Date("May 20, 2019 00:00:01"), 
+             new Date("May 27, 2019 00:00:01")]
+var thisDay = new Date()
+//onko kuluva hetki suurempi kuin viikon 1 avauspäivä
+if (thisDay>=openingDates[1]){
+
+} 
