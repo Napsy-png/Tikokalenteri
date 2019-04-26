@@ -1,0 +1,106 @@
+html {
+    background-image: url(summer-1023065_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+button {
+    color: #eb5757;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 45px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+audio {
+    float: right;
+}
+
+.container {
+    width: 800px;
+    height: 900px;
+    border: 10px solid rgba(5, 178, 242, 0.65);
+    margin: 15px auto;
+    border-radius: 15px;
+    background-color: rgba(230, 232, 197, 0.9);
+
+}
+.luukku {
+    width: 9em;
+    height: 9em;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 15px;
+   
+        
+}
+
+.rivi1, .rivi2, .rivi3, .rivi4 {
+    display: block;
+    text-align: center;
+    padding-bottom: 2em;
+    
+}
+
+.otsikko {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    color: #eb5757;
+     cursor: default;
+}
+
+.KukkaVasen {
+    width: 160px;
+    height: 160px;
+    float: left;
+    border-radius: 15px;
+    margin-left: 50px;
+    
+}
+
+.KukkaOikea {
+   width: 160px;
+    height: 160px;
+    float: right;
+    border-radius: 15px; 
+    margin-right: 50px;
+}
+
+.modal {
+    display: none;
+    z-index: 1;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: beige;
+    margin: 5% auto;
+    padding: 35px;
+    width: 55%;
+    height: 65%;
+    box-shadow: 7px 7px 20px;
+}
+
+
+.close {
+    float: right;
+    font-size: 65px;
+    color: black;
+}
+
+.close:hover {
+    color: #be1111;
+    cursor: pointer;
+}
